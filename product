@@ -1,0 +1,15 @@
+#include<stdio.h>
+int product(int a, int b)
+{ 
+    int multiply =  a * b;
+    return multiply;
+}
+
+int main()
+{
+    int x, y, adding;
+    printf("enter 2 numbers\n");
+    scanf("%d %d", &x, &y);
+    printf("product is %d", product(x, y));
+    return 0;
+}
