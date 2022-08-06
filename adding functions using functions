@@ -1,0 +1,16 @@
+#include<stdio.h>
+int add(int a, int b)
+{ 
+    int sum =  a + b;
+    return sum;
+}
+
+int main()
+{
+    int x, y, adding;
+    printf("enter 2 numbers\n");
+    scanf("%d %d", &x, &y);
+    adding=add(x, y);
+    printf("sum is %d", adding);
+    return 0;
+}
